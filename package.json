@@ -1,0 +1,29 @@
+{
+  "name": "nodajs-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemone index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petroDavydov/nodajs-homework.git"
+  },
+  "keywords": [],
+  "author": "Petro Davydov <petrodavydov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petroDavydov/nodajs-homework/issues"
+  },
+  "homepage": "https://github.com/petroDavydov/nodajs-homework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0"
+  }
+}
