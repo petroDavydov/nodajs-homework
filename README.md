@@ -3,6 +3,6 @@
 
 ## Add New Contact
 
-![addNewContact](../images/addNewContact.png)
+(../images/addNewContact.png)
 
 
