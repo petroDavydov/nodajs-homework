@@ -1,3 +1,4 @@
+require('./controlers')
 // const chalk = require("chalk");
 // const { Command } = require("commander");
 // const {
@@ -62,5 +63,3 @@
 //   console.log(chalk.green.bold("Operation Success!"))
 // );
 
-
-require('./controlers')

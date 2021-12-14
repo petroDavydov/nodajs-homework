@@ -9,7 +9,8 @@ const readContent = async () => {
 };
 
 const listContacts = async () => {
-  return await readContent();
+  const result = await readContent();
+  return result;
 };
 
 module.exports = listContacts;

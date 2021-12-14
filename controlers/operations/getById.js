@@ -8,8 +8,8 @@ const readContent = async () => {
   return result;
 };
 const getContactById = async (contactId) => {
-  const contact = await readContent();
-  const [contact] = contact.filter((contact) => contact.id === contactId);
+  const contacts = await readContent();
+  const [contact] = contacts.filter((contact) => contact.id === contactId);
   return contact;
 };
 

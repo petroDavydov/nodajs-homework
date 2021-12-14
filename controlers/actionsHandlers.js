@@ -4,14 +4,14 @@ const {
   addContact,
   removeContact,
   getContactById,
-  listContacts,
-} = require("./contacts");
-const program = new Command();
+  listContact,
+} = require("./operations");
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
     case "list":
-      const contacts = await listContacts();
+		
+      const contacts = await listContact();
       console.log(chalk.cyan.bold("Table List Contacts"));
       console.table(contacts);
       break;

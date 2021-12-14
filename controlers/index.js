@@ -12,6 +12,7 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-const invokeAction = require("./actionsHandlers")(async () => {
+const invokeAction = require("./actionsHandlers");
+(async () => {
   await invokeAction(argv);
 })();
