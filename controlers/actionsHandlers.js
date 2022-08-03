@@ -21,8 +21,10 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       if (contactById) {
         console.log(chalk.blue.bold("Contact Found !"));
         console.table(contactById);
+        console.log(chalk.blue.bold("Good job,that`s my boy 😺❗"))
       } else {
         console.log(chalk.red.bold("Contact Not Found"));
+        console.log(chalk.red.bold("Or did`n make or forgot😒"));
       }
       break;
 
